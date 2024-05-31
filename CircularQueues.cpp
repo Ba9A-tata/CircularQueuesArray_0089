@@ -118,7 +118,14 @@ int main() {
                     q.insert();
                     break;
                 }
-                
+                case '2': {
+                    q.remove();
+                    break;
+                }
+                case '3': {
+                    q.display();
+                    break;
+                }
             }
         }
     }
